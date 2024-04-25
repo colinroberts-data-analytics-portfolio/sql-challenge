@@ -73,3 +73,12 @@ List each employee in the Sales and Development departments, including their emp
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name) (4 points)
 Grading
 This assignment will be evaluated against the requirements and assigned a grade according to the following table:
+
+
+----------------------------------------------
+
+References Links:
+
+sql tble create with references----
+https://stackoverflow.com/questions/29179819/sql-server-to-create-a-table-inside-a-schema
+
