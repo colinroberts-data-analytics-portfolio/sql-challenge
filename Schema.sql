@@ -39,7 +39,7 @@ CREATE TABLE titles (
     title VARCHAR(100) NOT NULL
 );
 
--- Update employees table to reference titles
+-- ALTER Tables to reference Keys
 ALTER TABLE employees
 ADD FOREIGN KEY (emp_title_id) REFERENCES titles(emp_title_id);
 
