@@ -36,9 +36,9 @@ CREATE TABLE dept_emp (
 );
 
 CREATE TABLE dept_manager (
-    emp_no INT,  
-    dept_no VARCHAR(10),
+    dept_no VARCHAR(10),  
+    emp_no INT, 
     PRIMARY KEY (dept_no, emp_no),
-    FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
-    FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
+    FOREIGN KEY (emp_no) REFERENCES employees(emp_no)    
 );
