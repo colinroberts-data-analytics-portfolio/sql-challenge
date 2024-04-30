@@ -1,12 +1,5 @@
 -- sql_challenge
 
---first I changed the name to match
--- change column name
-ALTER TABLE titles
-RENAME COLUMN title_id TO emp_title_id;
-
-ALTER TABLE employees
-RENAME COLUMN emp_title TO emp_title_id;
 
 -- 1) List the employee number, last name, first name, sex, and salary of each employee.
 ---------------------------------------------------------------------------------
